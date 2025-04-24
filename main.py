@@ -1,11 +1,8 @@
-#input a word
-text = str(input("Enter a string: "))
+actual_cost = float(input("Please enter the Actual Cost price."))
+sale_amount = float(input("Please enter the Sale Amount."))
 
-# Reverse String 
-# using step value as -1 to iterate in reverse
-revText = text[::-1] 
-text = revText
-
-print("Reverse of Given String is:")
-print(text)
-
+if (sale_amount > actual_cost):
+    amount = sale_amount - actual_cost
+    print("Total Profit = {0}".format(amount))
+else:
+    print("No Profit!")

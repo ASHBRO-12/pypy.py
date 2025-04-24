@@ -1,8 +1,9 @@
-actual_cost = float(input("Please enter the Actual Cost price."))
-sale_amount = float(input("Please enter the Sale Amount."))
+i = int(input("Enter a number : "))
 
-if (sale_amount > actual_cost):
-    amount = sale_amount - actual_cost
-    print("Total Profit = {0}".format(amount))
+if (i < 15):
+    print("i is less than fifteen.")
+    print("I'm in the if statement.")
 else:
-    print("No Profit!")
+    print("i is greater than fifteen.")
+    print("I'm in the else statement.")
+print("I'm not in the if or else statement.")

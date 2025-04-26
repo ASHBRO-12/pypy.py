@@ -1,7 +1,22 @@
-number = int(input("Enter a number to check: "))
-print("Number to be checked :", number)
+a = 10
+b = 12
+c = 0
 
-if number%2==0:
-    print("This is an even number.")
+if a and b and c:
+    print("All the numbers have boolean value as True.")
 else:
-    print("This is an odd number.")
+    print("At least one number has boolean value as False.")
+
+a = 10
+b = -10
+c = 0
+
+if a > 0 or b > 0:
+    print("Either of the numbers is greater than 0.")
+else:
+    print("No number is greater than 0.")
+
+if b > 0 or c > 0:
+    print("Either of the numbers is greater than 0.")
+else:
+    print("No number is greater than 0.")

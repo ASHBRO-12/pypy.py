@@ -1,6 +1,8 @@
-n = int(input("Enter the value of n: "))
+n = int(input("Enter the value of terms: "))
 
-print("numbers from {0} to {1} are: .format(n,1) ")
-
-for i in range(n, 0, -1):
-    print(i)
+sum = 0
+i = 1
+while i<=n:
+    sum = sum+i
+    i = i+1
+print("\nSum =", sum)

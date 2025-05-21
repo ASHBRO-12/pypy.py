@@ -1,3 +1,5 @@
-i=0
-while i<=0:
-    print("I WILL RUN FOREVER!  >:)")
+def well_wishes():
+    print("hello")
+    print("how are you")
+
+well_wishes

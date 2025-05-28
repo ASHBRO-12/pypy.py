@@ -1,5 +1,7 @@
-def well_wishes():
-    print("hello")
-    print("how are you")
-
-well_wishes
+a = input("Enter a word: ")
+for i in a:
+    if (i == "A"):
+        print("'A' is found!")
+        break
+    else:
+        print("'A' isn't found...")
